@@ -1,4 +1,3 @@
-
 #include <stdint.h>
 
 /* Define SPI_CS Pin config */
@@ -15,6 +14,8 @@
 #endif
 
 extern SPI_HandleTypeDef hspi1;
+uint8_t completed_tx;
+uint8_t completed_rx;
 
 void FRAM_DMA_Init();
 void FRAM_DMA_Read(uint8_t *addr, uint8_t *dst, unsigned long len);
