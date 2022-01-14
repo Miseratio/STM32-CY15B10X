@@ -9,8 +9,8 @@
 
 #ifdef STM32L496xx
 	#include "stm32l4xx_hal.h"
-    #define SPI1_CS_Pin GPIO_PIN_13
-    #define SPI1_CS_GPIO_Port GPIOH
+    #define SPI1_CS_Pin GPIO_PIN_15
+    #define SPI1_CS_GPIO_Port GPIOA
 #endif
 
 extern SPI_HandleTypeDef hspi1;
