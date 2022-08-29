@@ -1,5 +1,5 @@
 # STM32-CY15B10X
-Data buffer transmission/reception between STM32 devices and CY15B108QI via SPI using DMA.
+CY15B108QI drivers for STM32 IoT devices via SPI using DMA.
 
 #### STM32WB55
 Board: P-NUCLEO-WB55 (embeds a STM32WB55RG device)
